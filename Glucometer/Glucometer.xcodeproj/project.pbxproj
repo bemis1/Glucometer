@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A013A0C151BBC870006C14D /* aurio_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A01151BBC870006C14D /* aurio_helper.cpp */; };
+		1A013A0D151BBC870006C14D /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A03151BBC870006C14D /* CADebugMacros.cpp */; };
+		1A013A0E151BBC870006C14D /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A06151BBC870006C14D /* CAStreamBasicDescription.cpp */; };
+		1A013A0F151BBC870006C14D /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A08151BBC870006C14D /* CAXException.cpp */; };
+		1A013A10151BBC870006C14D /* HiJackMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A0B151BBC870006C14D /* HiJackMgr.mm */; };
+		1A29FD6C152BE38E003B9BE6 /* GlucometerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A29FD6A152BE38E003B9BE6 /* GlucometerViewController.mm */; };
+		1A29FD6D152BE38E003B9BE6 /* GlucometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A29FD6B152BE38E003B9BE6 /* GlucometerViewController.xib */; };
+		1A30A27F15394212009EEF28 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A30A27E15394212009EEF28 /* Entitlements.plist */; };
+		1AE7F3871558F9B900B735A8 /* SobrietyViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE7F3851558F9B900B735A8 /* SobrietyViewController.mm */; };
+		1AE7F3881558F9B900B735A8 /* SobrietyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE7F3861558F9B900B735A8 /* SobrietyViewController.xib */; };
+		1AE7F39A155914EB00B735A8 /* GlucoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE7F398155914E600B735A8 /* GlucoViewController.mm */; };
+		1AE7F39B155914EB00B735A8 /* GlucoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE7F399155914E800B735A8 /* GlucoViewController.xib */; };
+		1AE8AC1015096A81007E11A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC0F15096A81007E11A1 /* UIKit.framework */; };
+		1AE8AC1215096A81007E11A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1115096A81007E11A1 /* Foundation.framework */; };
+		1AE8AC1415096A81007E11A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */; };
+		1AE8AC1A15096A81007E11A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC1815096A81007E11A1 /* InfoPlist.strings */; };
+		1AE8AC1C15096A81007E11A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC1B15096A81007E11A1 /* main.m */; };
+		1AE8AC2015096A81007E11A1 /* GlucometerAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC1F15096A81007E11A1 /* GlucometerAppDelegate.mm */; };
+		1AE8AC2415096A81007E11A1 /* GlucometerAppDelegate_iPhone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2315096A81007E11A1 /* GlucometerAppDelegate_iPhone.mm */; };
+		1AE8AC2715096A81007E11A1 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2515096A81007E11A1 /* MainWindow_iPhone.xib */; };
+		1AE8AC2B15096A81007E11A1 /* GlucometerAppDelegate_iPad.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2A15096A81007E11A1 /* GlucometerAppDelegate_iPad.mm */; };
+		1AE8AC2E15096A81007E11A1 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2C15096A81007E11A1 /* MainWindow_iPad.xib */; };
+		1AE8AC3615096A81007E11A1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC3515096A81007E11A1 /* SenTestingKit.framework */; };
+		1AE8AC3715096A81007E11A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC0F15096A81007E11A1 /* UIKit.framework */; };
+		1AE8AC3815096A81007E11A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1115096A81007E11A1 /* Foundation.framework */; };
+		1AE8AC3915096A81007E11A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */; };
+		1AE8AC4115096A81007E11A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC3F15096A81007E11A1 /* InfoPlist.strings */; };
+		1AE8AC4315096A81007E11A1 /* GlucometerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC4215096A81007E11A1 /* GlucometerTests.h */; };
+		1AE8AC4515096A81007E11A1 /* GlucometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC4415096A81007E11A1 /* GlucometerTests.m */; };
+		1AEDCB49151BC01500AFF1AC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEDCB48151BC01500AFF1AC /* AudioToolbox.framework */; };
+		7CCF60A515D0F9ED00F91570 /* Glucometer.app in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC0B15096A81007E11A1 /* Glucometer.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE8AC3A15096A81007E11A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE8AC0215096A81007E11A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE8AC0A15096A81007E11A1;
+			remoteInfo = Breathalyzer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A013A01151BBC870006C14D /* aurio_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = aurio_helper.cpp; path = Lib/aurio_helper.cpp; sourceTree = "<group>"; };
+		1A013A02151BBC870006C14D /* aurio_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aurio_helper.h; path = Lib/aurio_helper.h; sourceTree = "<group>"; };
+		1A013A03151BBC870006C14D /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CADebugMacros.cpp; path = Lib/CADebugMacros.cpp; sourceTree = "<group>"; };
+		1A013A04151BBC870006C14D /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADebugMacros.h; path = Lib/CADebugMacros.h; sourceTree = "<group>"; };
+		1A013A05151BBC870006C14D /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAMath.h; path = Lib/CAMath.h; sourceTree = "<group>"; };
+		1A013A06151BBC870006C14D /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAStreamBasicDescription.cpp; path = Lib/CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		1A013A07151BBC870006C14D /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAStreamBasicDescription.h; path = Lib/CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		1A013A08151BBC870006C14D /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAXException.cpp; path = Lib/CAXException.cpp; sourceTree = "<group>"; };
+		1A013A09151BBC870006C14D /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAXException.h; path = Lib/CAXException.h; sourceTree = "<group>"; };
+		1A013A0A151BBC870006C14D /* HiJackMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiJackMgr.h; path = Lib/HiJackMgr.h; sourceTree = "<group>"; };
+		1A013A0B151BBC870006C14D /* HiJackMgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HiJackMgr.mm; path = Lib/HiJackMgr.mm; sourceTree = "<group>"; };
+		1A29FD69152BE38E003B9BE6 /* GlucometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucometerViewController.h; sourceTree = "<group>"; };
+		1A29FD6A152BE38E003B9BE6 /* GlucometerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GlucometerViewController.mm; sourceTree = "<group>"; };
+		1A29FD6B152BE38E003B9BE6 /* GlucometerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GlucometerViewController.xib; sourceTree = "<group>"; };
+		1A30A27E15394212009EEF28 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		1AE7F3841558F9B900B735A8 /* SobrietyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobrietyViewController.h; sourceTree = "<group>"; };
+		1AE7F3851558F9B900B735A8 /* SobrietyViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SobrietyViewController.mm; sourceTree = "<group>"; };
+		1AE7F3861558F9B900B735A8 /* SobrietyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SobrietyViewController.xib; sourceTree = "<group>"; };
+		1AE7F397155914E400B735A8 /* GlucoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucoViewController.h; sourceTree = "<group>"; };
+		1AE7F398155914E600B735A8 /* GlucoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GlucoViewController.mm; sourceTree = "<group>"; };
+		1AE7F399155914E800B735A8 /* GlucoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GlucoViewController.xib; sourceTree = "<group>"; };
+		1AE8AC0B15096A81007E11A1 /* Glucometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glucometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE8AC0F15096A81007E11A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1AE8AC1115096A81007E11A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AE8AC1715096A81007E11A1 /* Glucometer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glucometer-Info.plist"; sourceTree = "<group>"; };
+		1AE8AC1915096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AE8AC1B15096A81007E11A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AE8AC1D15096A81007E11A1 /* Glucometer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Glucometer-Prefix.pch"; sourceTree = "<group>"; };
+		1AE8AC1E15096A81007E11A1 /* GlucometerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlucometerAppDelegate.h; sourceTree = "<group>"; };
+		1AE8AC1F15096A81007E11A1 /* GlucometerAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GlucometerAppDelegate.mm; sourceTree = "<group>"; };
+		1AE8AC2215096A81007E11A1 /* GlucometerAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GlucometerAppDelegate_iPhone.h; path = iPhone/GlucometerAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		1AE8AC2315096A81007E11A1 /* GlucometerAppDelegate_iPhone.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = GlucometerAppDelegate_iPhone.mm; path = iPhone/GlucometerAppDelegate_iPhone.mm; sourceTree = "<group>"; };
+		1AE8AC2615096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		1AE8AC2915096A81007E11A1 /* GlucometerAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GlucometerAppDelegate_iPad.h; path = iPad/GlucometerAppDelegate_iPad.h; sourceTree = "<group>"; };
+		1AE8AC2A15096A81007E11A1 /* GlucometerAppDelegate_iPad.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = GlucometerAppDelegate_iPad.mm; path = iPad/GlucometerAppDelegate_iPad.mm; sourceTree = "<group>"; };
+		1AE8AC2D15096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		1AE8AC3415096A81007E11A1 /* GlucometerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucometerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE8AC3515096A81007E11A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1AE8AC3E15096A81007E11A1 /* GlucometerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlucometerTests-Info.plist"; sourceTree = "<group>"; };
+		1AE8AC4015096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AE8AC4215096A81007E11A1 /* GlucometerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlucometerTests.h; sourceTree = "<group>"; };
+		1AE8AC4415096A81007E11A1 /* GlucometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlucometerTests.m; sourceTree = "<group>"; };
+		1AEDCB48151BC01500AFF1AC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE8AC0815096A81007E11A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEDCB49151BC01500AFF1AC /* AudioToolbox.framework in Frameworks */,
+				1AE8AC1015096A81007E11A1 /* UIKit.framework in Frameworks */,
+				1AE8AC1215096A81007E11A1 /* Foundation.framework in Frameworks */,
+				1AE8AC1415096A81007E11A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE8AC3015096A81007E11A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC3615096A81007E11A1 /* SenTestingKit.framework in Frameworks */,
+				1AE8AC3715096A81007E11A1 /* UIKit.framework in Frameworks */,
+				1AE8AC3815096A81007E11A1 /* Foundation.framework in Frameworks */,
+				1AE8AC3915096A81007E11A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A013A00151BBC770006C14D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				1A013A01151BBC870006C14D /* aurio_helper.cpp */,
+				1A013A02151BBC870006C14D /* aurio_helper.h */,
+				1A013A03151BBC870006C14D /* CADebugMacros.cpp */,
+				1A013A04151BBC870006C14D /* CADebugMacros.h */,
+				1A013A05151BBC870006C14D /* CAMath.h */,
+				1A013A06151BBC870006C14D /* CAStreamBasicDescription.cpp */,
+				1A013A07151BBC870006C14D /* CAStreamBasicDescription.h */,
+				1A013A08151BBC870006C14D /* CAXException.cpp */,
+				1A013A09151BBC870006C14D /* CAXException.h */,
+				1A013A0A151BBC870006C14D /* HiJackMgr.h */,
+				1A013A0B151BBC870006C14D /* HiJackMgr.mm */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		1AE8AC0015096A81007E11A1 = {
+			isa = PBXGroup;
+			children = (
+				1AE7F397155914E400B735A8 /* GlucoViewController.h */,
+				1AE7F398155914E600B735A8 /* GlucoViewController.mm */,
+				1AE7F399155914E800B735A8 /* GlucoViewController.xib */,
+				1AE7F3841558F9B900B735A8 /* SobrietyViewController.h */,
+				1AE7F3851558F9B900B735A8 /* SobrietyViewController.mm */,
+				1AE7F3861558F9B900B735A8 /* SobrietyViewController.xib */,
+				1A30A27E15394212009EEF28 /* Entitlements.plist */,
+				1AEDCB48151BC01500AFF1AC /* AudioToolbox.framework */,
+				1AE8AC1515096A81007E11A1 /* Glucometer */,
+				1AE8AC3C15096A81007E11A1 /* GlucometerTests */,
+				1AE8AC0E15096A81007E11A1 /* Frameworks */,
+				1AE8AC0C15096A81007E11A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AE8AC0C15096A81007E11A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC0B15096A81007E11A1 /* Glucometer.app */,
+				1AE8AC3415096A81007E11A1 /* GlucometerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AE8AC0E15096A81007E11A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC0F15096A81007E11A1 /* UIKit.framework */,
+				1AE8AC1115096A81007E11A1 /* Foundation.framework */,
+				1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */,
+				1AE8AC3515096A81007E11A1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AE8AC1515096A81007E11A1 /* Glucometer */ = {
+			isa = PBXGroup;
+			children = (
+				1A013A00151BBC770006C14D /* Lib */,
+				1AE8AC1E15096A81007E11A1 /* GlucometerAppDelegate.h */,
+				1AE8AC1F15096A81007E11A1 /* GlucometerAppDelegate.mm */,
+				1AE8AC2115096A81007E11A1 /* iPhone */,
+				1AE8AC2815096A81007E11A1 /* iPad */,
+				1AE8AC1615096A81007E11A1 /* Supporting Files */,
+				1A29FD69152BE38E003B9BE6 /* GlucometerViewController.h */,
+				1A29FD6A152BE38E003B9BE6 /* GlucometerViewController.mm */,
+				1A29FD6B152BE38E003B9BE6 /* GlucometerViewController.xib */,
+			);
+			name = Glucometer;
+			path = Breathalyzer;
+			sourceTree = "<group>";
+		};
+		1AE8AC1615096A81007E11A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC1715096A81007E11A1 /* Glucometer-Info.plist */,
+				1AE8AC1815096A81007E11A1 /* InfoPlist.strings */,
+				1AE8AC1B15096A81007E11A1 /* main.m */,
+				1AE8AC1D15096A81007E11A1 /* Glucometer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AE8AC2115096A81007E11A1 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC2215096A81007E11A1 /* GlucometerAppDelegate_iPhone.h */,
+				1AE8AC2315096A81007E11A1 /* GlucometerAppDelegate_iPhone.mm */,
+				1AE8AC2515096A81007E11A1 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		1AE8AC2815096A81007E11A1 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC2915096A81007E11A1 /* GlucometerAppDelegate_iPad.h */,
+				1AE8AC2A15096A81007E11A1 /* GlucometerAppDelegate_iPad.mm */,
+				1AE8AC2C15096A81007E11A1 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		1AE8AC3C15096A81007E11A1 /* GlucometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC4215096A81007E11A1 /* GlucometerTests.h */,
+				1AE8AC4415096A81007E11A1 /* GlucometerTests.m */,
+				1AE8AC3D15096A81007E11A1 /* Supporting Files */,
+			);
+			name = GlucometerTests;
+			path = BreathalyzerTests;
+			sourceTree = "<group>";
+		};
+		1AE8AC3D15096A81007E11A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC3E15096A81007E11A1 /* GlucometerTests-Info.plist */,
+				1AE8AC3F15096A81007E11A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AE8AC0A15096A81007E11A1 /* Glucometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE8AC4815096A81007E11A1 /* Build configuration list for PBXNativeTarget "Glucometer" */;
+			buildPhases = (
+				1AE8AC0715096A81007E11A1 /* Sources */,
+				1AE8AC0815096A81007E11A1 /* Frameworks */,
+				1AE8AC0915096A81007E11A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glucometer;
+			productName = Breathalyzer;
+			productReference = 1AE8AC0B15096A81007E11A1 /* Glucometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AE8AC3315096A81007E11A1 /* GlucometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE8AC4B15096A81007E11A1 /* Build configuration list for PBXNativeTarget "GlucometerTests" */;
+			buildPhases = (
+				1AE8AC2F15096A81007E11A1 /* Sources */,
+				1AE8AC3015096A81007E11A1 /* Frameworks */,
+				1AE8AC3115096A81007E11A1 /* Resources */,
+				1AE8AC3215096A81007E11A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE8AC3B15096A81007E11A1 /* PBXTargetDependency */,
+			);
+			name = GlucometerTests;
+			productName = BreathalyzerTests;
+			productReference = 1AE8AC3415096A81007E11A1 /* GlucometerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AE8AC0215096A81007E11A1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1AE8AC0515096A81007E11A1 /* Build configuration list for PBXProject "Glucometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AE8AC0015096A81007E11A1;
+			productRefGroup = 1AE8AC0C15096A81007E11A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AE8AC0A15096A81007E11A1 /* Glucometer */,
+				1AE8AC3315096A81007E11A1 /* GlucometerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AE8AC0915096A81007E11A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC1A15096A81007E11A1 /* InfoPlist.strings in Resources */,
+				1AE8AC2715096A81007E11A1 /* MainWindow_iPhone.xib in Resources */,
+				1AE8AC2E15096A81007E11A1 /* MainWindow_iPad.xib in Resources */,
+				1A29FD6D152BE38E003B9BE6 /* GlucometerViewController.xib in Resources */,
+				1A30A27F15394212009EEF28 /* Entitlements.plist in Resources */,
+				1AE7F3881558F9B900B735A8 /* SobrietyViewController.xib in Resources */,
+				1AE7F39B155914EB00B735A8 /* GlucoViewController.xib in Resources */,
+				7CCF60A515D0F9ED00F91570 /* Glucometer.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE8AC3115096A81007E11A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC4115096A81007E11A1 /* InfoPlist.strings in Resources */,
+				1AE8AC4315096A81007E11A1 /* GlucometerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AE8AC3215096A81007E11A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE8AC0715096A81007E11A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC1C15096A81007E11A1 /* main.m in Sources */,
+				1AE8AC2015096A81007E11A1 /* GlucometerAppDelegate.mm in Sources */,
+				1AE8AC2415096A81007E11A1 /* GlucometerAppDelegate_iPhone.mm in Sources */,
+				1AE8AC2B15096A81007E11A1 /* GlucometerAppDelegate_iPad.mm in Sources */,
+				1A013A0C151BBC870006C14D /* aurio_helper.cpp in Sources */,
+				1A013A0D151BBC870006C14D /* CADebugMacros.cpp in Sources */,
+				1A013A0E151BBC870006C14D /* CAStreamBasicDescription.cpp in Sources */,
+				1A013A0F151BBC870006C14D /* CAXException.cpp in Sources */,
+				1A013A10151BBC870006C14D /* HiJackMgr.mm in Sources */,
+				1A29FD6C152BE38E003B9BE6 /* GlucometerViewController.mm in Sources */,
+				1AE7F3871558F9B900B735A8 /* SobrietyViewController.mm in Sources */,
+				1AE7F39A155914EB00B735A8 /* GlucoViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE8AC2F15096A81007E11A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC4515096A81007E11A1 /* GlucometerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AE8AC3B15096A81007E11A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE8AC0A15096A81007E11A1 /* Glucometer */;
+			targetProxy = 1AE8AC3A15096A81007E11A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AE8AC1815096A81007E11A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE8AC1915096A81007E11A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AE8AC2515096A81007E11A1 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE8AC2615096A81007E11A1 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1AE8AC2C15096A81007E11A1 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE8AC2D15096A81007E11A1 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		1AE8AC3F15096A81007E11A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE8AC4015096A81007E11A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AE704981538960D0021D29B /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		1AE704991538960D0021D29B /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Glucometer-Prefix.pch";
+				INFOPLIST_FILE = "Breathalyzer/Glucometer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PREBINDING = NO;
+				PRODUCT_NAME = Glucometer;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		1AE7049A1538960D0021D29B /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Breathalyzer.app/Breathalyzer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
+				INFOPLIST_FILE = "BreathalyzerTests/BreathalyzerTests-Info.plist";
+				PRODUCT_NAME = GlucometerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = "Ad Hoc";
+		};
+		1AE8AC4615096A81007E11A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AE8AC4715096A81007E11A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AE8AC4915096A81007E11A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Glucometer-Prefix.pch";
+				INFOPLIST_FILE = "Breathalyzer/Glucometer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PREBINDING = NO;
+				PRODUCT_NAME = Glucometer;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AE8AC4A15096A81007E11A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Glucometer-Prefix.pch";
+				INFOPLIST_FILE = "Breathalyzer/Glucometer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PREBINDING = NO;
+				PRODUCT_NAME = Glucometer;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1AE8AC4C15096A81007E11A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Breathalyzer.app/Breathalyzer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
+				INFOPLIST_FILE = "BreathalyzerTests/BreathalyzerTests-Info.plist";
+				PRODUCT_NAME = GlucometerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1AE8AC4D15096A81007E11A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Breathalyzer.app/Breathalyzer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
+				INFOPLIST_FILE = "BreathalyzerTests/BreathalyzerTests-Info.plist";
+				PRODUCT_NAME = GlucometerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE8AC0515096A81007E11A1 /* Build configuration list for PBXProject "Glucometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE8AC4615096A81007E11A1 /* Debug */,
+				1AE8AC4715096A81007E11A1 /* Release */,
+				1AE704981538960D0021D29B /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE8AC4815096A81007E11A1 /* Build configuration list for PBXNativeTarget "Glucometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE8AC4915096A81007E11A1 /* Debug */,
+				1AE8AC4A15096A81007E11A1 /* Release */,
+				1AE704991538960D0021D29B /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE8AC4B15096A81007E11A1 /* Build configuration list for PBXNativeTarget "GlucometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE8AC4C15096A81007E11A1 /* Debug */,
+				1AE8AC4D15096A81007E11A1 /* Release */,
+				1AE7049A1538960D0021D29B /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AE8AC0215096A81007E11A1 /* Project object */;
+}
