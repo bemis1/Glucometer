@@ -1,0 +1,6 @@
+David:  so in PlatformLedsC.nc you'll need to change the thing to input
+my battery's running low
+ me:  ok
+i just got the code
+thx !
+ David:  and then in HiJackAppM.nc you need to read the pin using .get()
