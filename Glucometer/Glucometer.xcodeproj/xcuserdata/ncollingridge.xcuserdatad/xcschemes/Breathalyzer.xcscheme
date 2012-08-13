@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1AE8AC0A15096A81007E11A1"
-               BuildableName = "Breathalyzer.app"
+               BuildableName = "Glucometer.app"
                BlueprintName = "Glucometer"
                ReferencedContainer = "container:Glucometer.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1AE8AC3315096A81007E11A1"
-               BuildableName = "BreathalyzerTests.octest"
+               BuildableName = "GlucometerTests.octest"
                BlueprintName = "GlucometerTests"
                ReferencedContainer = "container:Glucometer.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1AE8AC0A15096A81007E11A1"
-            BuildableName = "Breathalyzer.app"
+            BuildableName = "Glucometer.app"
             BlueprintName = "Glucometer"
             ReferencedContainer = "container:Glucometer.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1AE8AC0A15096A81007E11A1"
-            BuildableName = "Breathalyzer.app"
+            BuildableName = "Glucometer.app"
             BlueprintName = "Glucometer"
             ReferencedContainer = "container:Glucometer.xcodeproj">
          </BuildableReference>
@@ -79,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1AE8AC0A15096A81007E11A1"
-            BuildableName = "Breathalyzer.app"
+            BuildableName = "Glucometer.app"
             BlueprintName = "Glucometer"
             ReferencedContainer = "container:Glucometer.xcodeproj">
          </BuildableReference>
